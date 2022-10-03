@@ -10,7 +10,6 @@
 #         to_addrs="victorponce.r@yahoo.com",
 #         msg="Subject:Hello\n\nThis is the body of my email."
 #     )
-
 # import datetime as dt
 #
 # now = dt.datetime.now()

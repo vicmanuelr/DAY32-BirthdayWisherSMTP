@@ -37,7 +37,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit data_list / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -159,7 +159,7 @@ gen
 
 # Installer logs
 
-# Unit test / coverage reports
+# Unit data_list / coverage reports
 
 # Translations
 
