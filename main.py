@@ -4,7 +4,6 @@ import random as rn
 import smtplib
 
 # ----------------------------------- Extra Hard Starting Project ----------------------------------------#
-# TODO 2. Check if today matches a birthday in the data_list.csv
 today = dt.datetime.now()
 data = pd.read_csv("./data/birthdays.csv")
 birthday_list = data.to_dict(orient="records")
@@ -16,8 +15,6 @@ def is_birthday(date_of_birth, today_date):
         return True
 
 
-# TODO 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's
-#  actual name from data_list.csv
 def random_letter(celebrant):
     for person in celebrant:
         name = person[0]
@@ -29,7 +26,6 @@ def random_letter(celebrant):
         send_email(final_letter, email)
 
 
-# TODO 4. Send the letter generated in step 3 to that person's email address.
 def send_email(message, email_address):
     MY_EMAIL = "vicmanuelr@gmail.com"
     MY_PASSWORD = "jktkofxgfysnngyu"
